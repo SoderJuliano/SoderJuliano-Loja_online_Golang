@@ -1,6 +1,8 @@
 package models
 
-import "soder_loja/db"
+import (
+	"soder_loja/db"
+)
 
 type Produto struct {
 	Id         int
